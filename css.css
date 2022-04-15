@@ -1,0 +1,31 @@
+.sadrzaj {
+	display: flex; flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+h1 {
+	font-family: 'anec odia'
+	font-size: 3em;
+	border-bottom: 2px solid limegreen;
+	text-align: center;
+	box-shadow: 4px 4px 5px;
+	margin-top: 10px;
+	color: seagreen;
+}
+h2 {text-align: center;
+}
+
+:any-link {
+  color: black;
+    box-shadow: 2px 2px 3px;
+  font-weight: 900;
+  text-decoration: none;
+text-align: right;}
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover {transform: scale(1.1);
+}
